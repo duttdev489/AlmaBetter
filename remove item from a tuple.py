@@ -16,4 +16,10 @@ tup = tuple(new_tup)
 print((tup))
 
 #alternatively
-tup.pop(item)
+tup =tuple( input().split(','))
+item = input()
+tup_list = list(tup)
+tup_list.remove(item)
+tup=tuple(tup_list)
+print(tup)
+
